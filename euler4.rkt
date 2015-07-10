@@ -1,6 +1,9 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname euler5) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ())))
+;;Austin Luo
+;;GOAL: To find the largest palindrome number that is a product of two three-digit numbers
+
 ;;Takes the first n elements of a list
 (define (take lst n)
   (cond
@@ -44,9 +47,6 @@
     [(empty? (rest lst)) (first lst)]
     [else (last (rest lst))]))
 
-
-
-(all-multiples-between 1 10)
 (check-expect (last (filter palindrome? (map (lambda (x) (number->string x)) (all-multiples-between 10 99)))) "9009")
 
 ;;Finds the largest palindrome made by the products of 900 and 999
