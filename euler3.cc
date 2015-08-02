@@ -1,4 +1,5 @@
 #include <iostream>
+//Find the largest prime factor of 600851475143
 
 long largestPrimeFactor( long num ) {
 	int factor = 2;

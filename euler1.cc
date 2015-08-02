@@ -1,4 +1,6 @@
 #include <iostream>
+//Adding multiples of 3 and 5 that are less than 1000
+
 int main() {
 	int sum = 0;
 	for ( int i = 1; i < 1000; i++ ) {

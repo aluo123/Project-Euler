@@ -1,4 +1,5 @@
 #include <iostream>
+//Find the sum of all even fibonacci numbers less than 4,000,000
 
 const int fibMax = 4000000;
 
