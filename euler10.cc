@@ -3,12 +3,14 @@
 #include <cmath>
 using namespace std;
 
-int kthPrime( int kth ) {
+long primesLessThanK( int k ) {
 	int n = 2;
+	long sum = 0;
 	vector<int> primes;
-	while ( primes.size() != kth ) {
+	primes.push_back(2);
+	while ( n < k ) {
 		bool isPrime = true;
-		for ( vector<int>::iterator it = primes.begin(); it <= sqrt(n); it++ ) {
+		for ( vector<int>::iterator it = primes.begin(); *it <= sqrt(n); it++ ) {
 			if ( n % *it == 0 ) {
 				isPrime = false;
 				break;
@@ -16,12 +18,13 @@ int kthPrime( int kth ) {
 		}
 		if ( isPrime ) {
 			primes.push_back(n);
+			sum += n;
 		}
 		n++;
 	}
-	return primes.back();
+	return sum;
 }
 
 int main(){
-	cout << kthPrime(10001) << endl;
+	cout << primesLessThanK(2000000) << endl;
 }
