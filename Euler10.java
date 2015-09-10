@@ -2,9 +2,9 @@ public class Euler10
 {
   public static void main(String[] args)
   {
-    final int cap = 2000000;
+    final int cap = 200;
     boolean[] sieve = new boolean[cap];
-    for ( int i = 2; i < cap; i = i + 2 )
+    for ( int i = 2; i < cap; i++ )
     {
       sieve[i] = true;
     }
