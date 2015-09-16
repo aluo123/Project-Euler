@@ -1,0 +1,35 @@
+public class Euler14 {
+  static int [] lens = new int[1000000];
+  public static void main( String [] args ) {
+    int max = 1;
+    int startMax = 1;
+    for ( int i = 0; i < 1000000; i++ ) {
+      lens[i] = -1;
+    }
+    /*
+    while ( n < 1000000 ) {
+      int chain = collatzLen(n);
+      if ( chain > max ) {
+        max = chain;
+        startMax = n;
+      }
+      n++;
+    }
+    */
+    System.out.println(collatzLen(712334));
+  }
+  
+  static int collatzLen( int n ) {
+    int length = 1;
+    while ( n != 1 ) {
+      if ( n % 2 == 0 ) {
+        n /= 2;
+      }
+      else {
+        n = 3 * n + 1;
+      }
+      length++;
+    }
+    return length;
+  }
+}
