@@ -1,0 +1,3 @@
+public class Euler13 {
+  public static void main( String [] args ) {
+    File text 
