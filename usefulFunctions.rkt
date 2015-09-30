@@ -23,3 +23,6 @@
 
 ;;Euler 16 solution
 (digital-sum (expt 2 1000))
+
+;;Euler 20 solution
+(digital-sum (factorial 100))

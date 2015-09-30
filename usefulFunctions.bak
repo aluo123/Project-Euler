@@ -17,3 +17,9 @@
 (define (digital-sum n)
   (cond [(= n 0) 0]
         [else (+ (remainder n 10) (digital-sum (quotient n 10)))]))
+
+;;Euler 15 solution
+(choose 40 20)
+
+;;Euler 16 solution
+(digital-sum (expt 2 1000))

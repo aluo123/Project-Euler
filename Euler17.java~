@@ -1,0 +1,15 @@
+public class Euler17 {
+  static int [] ones = new int [10];
+  static int [] teens = new int [10];
+  static int [] tens = new int [9];
+  static int [] hundreds = new int [10];
+  public static void main(String[] args) {
+  }
+  
+  static int lettersUsed( int n ) {
+    int letters = 0;
+    if ( n / 100 > 0 ) {
+    }
+  }
+}
+      
