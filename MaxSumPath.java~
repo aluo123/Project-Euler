@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class MaxSumPath {
+    public static void main( String[] args ) {
+        boolean loop = true;
+        Scanner in = new Scanner(System.in);
+        while( loop ) {
+            System.out.println("HELLO");
+            int n = in.nextInt();
+            if ( n == 0 ) {
+                break;
+            }
+        }
+    }
+}
