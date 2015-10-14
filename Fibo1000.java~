@@ -1,0 +1,16 @@
+//Find the index of the first 1000 digit fibonacci number
+
+public class Fibo1000 {
+    public static void main( String[] args ) {
+        int fib1 = 1;
+        int fib2 = 1;
+        int sum = 0;
+        int fibCounter = 0;
+        while ( fib2/10e2 == 0 ){
+            int nextFib = fib1 + fib2;
+            fib1 = fib2;
+            fib2 = nextFib;
+        }
+        System.out.println(fibCounter);
+    }
+}
