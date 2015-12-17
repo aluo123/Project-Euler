@@ -1,5 +1,5 @@
-# Project-Euler
-My solutions to [project euler](https://projecteuler.net) questions. 
+# [Project-Euler](https://projecteuler.net)
+My solutions to project euler questions. 
 [My profile](https://projecteuler.net/profile/a.luo123.png)
 
 ##[Problem 67](https://projecteuler.net/problem=67)/[18](https://projecteuler.net/problem=18) - Maximum Sum Paths 1 && 2
