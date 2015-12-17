@@ -4,9 +4,11 @@ import java.io.*;
 public class MaxSumPath {
     public static void main( String[] args ) throws IOException {
         Scanner input = new Scanner(System.in);
+        //Reads in a file that has a trianglular for of numbers
         System.out.println("Enter a triangular file name: ");
         String fileName = input.next();
         int [][]numbers = readArray(fileName);
+        //Sums stores the max sum of the array
         int sums[][] = new int[numbers.length][];
         for ( int i = 0; i < numbers.length; i++ ) {
             sums[i] = new int[numbers[i].length];
@@ -14,6 +16,7 @@ public class MaxSumPath {
         System.out.println(calculateMaxSum(sums, numbers, 0, 0));
     }
     
+    //Calculates the maximum sum of traversing through triangle numbers, starting from a specificed row and column
     public static int calculateMaxSum( int [][] sums, final int [][] numbers, int row, int col ) {
         if ( row >= numbers.length || col >= numbers[row].length ) {
             return 0;
