@@ -33,7 +33,9 @@ I used the Racket built in exponent function as well as my own digit sum functio
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 15](https://projecteuler.net/problem=15) - Lattice Paths
-Solved using combinatorics, namely my own factorial function
+
+Solved using combinatorics, namely my own `choose` function
+
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 14](https://projecteuler.net/problem=14) - Longest Collatz Sequence
