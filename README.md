@@ -39,6 +39,9 @@ Solved using combinatorics, namely my own `choose` function
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 14](https://projecteuler.net/problem=14) - Longest Collatz Sequence
+
+Initially I tried to do this in a brute force method. However, brute force got way too long. Then I realized that if I had a number like 40, the length would just be 1 + the length of 20. So I stored every number into an array, and would look up numbers as I encountered them trying to calculate other numbers. I did not know how high it would go, so if a number got bigger than one million I would go back to brute force. Then I just found the maximum element of the array.
+
 Relevant files: [Euler14.java](Euler14.java)
 
 ###[Problem 13](https://projecteuler.net/problem=13) - Large Sum
