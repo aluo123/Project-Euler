@@ -27,6 +27,9 @@ For this problem, I had a number of cases to take into account and change the pr
 Relevant files: [Euler17.java](Euler17.java)
 
 ###[Problem 16](https://projecteuler.net/problem=16) - Power Digit Sum
+
+I used the Racket built in exponent function as well as my own digit sum function I wrote for other programs.
+
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 15](https://projecteuler.net/problem=15) - Lattice Paths
