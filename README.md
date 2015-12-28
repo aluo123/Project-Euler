@@ -3,6 +3,9 @@ My solutions to project euler questions.
 [My profile](https://projecteuler.net/profile/a.luo123.png)
 
 ###[Problem 67](https://projecteuler.net/problem=67)/[18](https://projecteuler.net/problem=18) - Maximum Sum Paths 1 && 2
+
+The biggest worry with this problem was efficiency. Given that brute force would not be a sustainable option for Problem 67, I went straight for a more elegant solution. The end result was inspired by my solution to Problem 14, the Longest Collatz Sequence. I had two jagged arrays, one for the original numbers from the triangle and another for the max sum paths. This way, I would store max sums as I find them, essentially building it from the bottom up. Finding the max sum of the upper layer would be the simple matter of comparing the two sums just below it. 
+
 Relevant files: [MaxSumPath.java](MaxSumPath.java), [p067_triangle.txt](p067_triangle.txt), [sample1.txt](sample1.txt)
 
 ###[Problem 25](https://projecteuler.net/problem=25) - 1000-digit Fibonacci number
