@@ -15,6 +15,9 @@ Having already implemented a Fibonacci generator in [Problem 2](https://projecte
 Relevant files: [Fibo1000.java](Fibo1000.java)
 
 ###[Problem 20](https://projecteuler.net/problem=20) - Factorial Digit Sum
+
+This problem simply used the digit sum function and the factorial function I had already written for [Problem 16](https://projecteuler.net/problem=16) and [Problem 15](https://projecteuler.net/problem=15) respectively. I did not have to worry about integer overflow because it was written in Racket with dynamic typing.
+
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 17](https://projecteuler.net/problem=17) - Number Letter Counts
