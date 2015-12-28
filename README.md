@@ -45,6 +45,9 @@ Initially I tried to do this in a brute force method. However, brute force got w
 Relevant files: [Euler14.java](Euler14.java)
 
 ###[Problem 13](https://projecteuler.net/problem=13) - Large Sum
+
+Working in Java, I used the `double` variable type because I only needed the first 10 digits so precision was not as important.
+
 Relevant files: [Euler13.java](Euler13.java), [euler13numbers.txt](euler13numbers.txt)
 
 ###[Problem 12](https://projecteuler.net/problem=12) - Highly Divisible Triangular number
