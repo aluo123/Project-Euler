@@ -21,6 +21,9 @@ This problem simply used the digit sum function and the factorial function I had
 Relevant files: [usefulFunctions.rkt](usefulFunctions.rkt)
 
 ###[Problem 17](https://projecteuler.net/problem=17) - Number Letter Counts
+
+For this problem, I had a number of cases to take into account and change the program behaviour accordingly. I also individually counted the number of letters for each case, which could be improved by using the String `length()` method. Luckily I made no mistakes in the letter count, but it definitely would have made the code more readable and easier to write.
+
 Relevant files: [Euler17.java](Euler17.java)
 
 ###[Problem 16](https://projecteuler.net/problem=16) - Power Digit Sum
