@@ -51,6 +51,9 @@ Working in Java, I used the `double` variable type because I only needed the fir
 Relevant files: [Euler13.java](Euler13.java), [euler13numbers.txt](euler13numbers.txt)
 
 ###[Problem 12](https://projecteuler.net/problem=12) - Highly Divisible Triangular number
+
+Here I needed a method to count divisors of a number. I started out by finding prime factors, which I had done in [Problem 3](https://projecteuler.net/problem=3). It turns out, that there is a relationship between prime factors and normal divisors. It is basically a combinations problem; how many ways can I make a divisor given these prime factors? Say I have a number like 36. 36 is 2*2*3*3. So then I have three powers of 2 to work with (2^0, 2^1, 2^2), and three powers of 3 (3^0, 3^1, 3^2). The end result is 9 total divisors. For 36 that's 1 (2^0 * 3^0), 2 (2^1 * 3^0), 3 (2^0 * 3^1), 4 (2^2 * 3^0), 6 (2^1 * 3^1), 9 (2^0 * 3^2), 12 (2^2 * 3^1), 18 (2^1 * 3^2) and 36 (2^2 * 3^2). 
+
 Relevant files: [Euler12.java](Euler12.java)
 
 ###[Problem 11](https://projecteuler.net/problem=11) - Largest Product in a Grid
