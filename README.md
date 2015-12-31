@@ -76,7 +76,7 @@ Relevant files: [euler9.cc](euler9.cc)
 
 ###[Problem 8](https://projecteuler.net/problem=8) - Largest Product in a Series
 
-
+Found through multiplying the digits together, then keeping it adjacent by dividing by the first digit then multplying by the next one.
 
 Relevant files: [euler8.cc](euler8.cc), [euler8number.txt](euler8number.txt)
 
