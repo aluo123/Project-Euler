@@ -64,7 +64,7 @@ Relevant files: [euler11.cc](euler11.cc), [euler11grid.txt](euler11grid.txt)
 
 ###[Problem 10](https://projecteuler.net/problem=10) - Summation of Primes
 
-A more optimized implementation of the Sieve of Erathoneses than the one I used for [Problem 7](https://projecteuler.net/problem=7) that only looks for primes less than the square root to check. I updated the Problem 7 with the same sieve. It would probably be better to combine into one primes file. Attempted to use a different sieve implementation with Java, but was even more inefficient than the initial implementation of the initial one.
+A more optimized implementation of the Sieve of Eratothenes than the one I used for [Problem 7](https://projecteuler.net/problem=7) that only looks for primes less than the square root to check. I updated the Problem 7 with the same sieve. It would probably be better to combine into one primes file. Attempted to use a different sieve implementation with Java, but was even more inefficient than the initial implementation of the initial one.
 
 Relevant files: [euler10.cc](euler10.cc), [Euler10.java](Euler10.java)
 
@@ -81,6 +81,9 @@ Found through multiplying the digits together, then keeping it adjacent by divid
 Relevant files: [euler8.cc](euler8.cc), [euler8number.txt](euler8number.txt)
 
 ###[Problem 7](https://projecteuler.net/problem=7) - 10001st Prime
+
+Used Sieve of Eratothenes and a counter.
+
 Relevant files: [euler7.cc](euler7.cc)
 
 ###[Problem 6](https://projecteuler.net/problem=6) - Sum Square Differences
