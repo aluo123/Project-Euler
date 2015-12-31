@@ -64,9 +64,9 @@ Relevant files: [euler11.cc](euler11.cc), [euler11grid.txt](euler11grid.txt)
 
 ###[Problem 10](https://projecteuler.net/problem=10) - Summation of Primes
 
+A more optimized implementation of the Sieve of Erathoneses than the one I used for [Problem 7](https://projecteuler.net/problem=7) that only looks for primes less than the square root to check. I updated the Problem 7 with the same sieve. It would probably be better to combine into one primes file. Attempted to use a different sieve implementation with Java, but was even more inefficient than the initial implementation of the initial one.
 
-
-Relevant files: [Euler10.java](Euler10.java)
+Relevant files: [euler10.cc](euler10.cc), [Euler10.java](Euler10.java)
 
 ###[Problem 9](https://projecteuler.net/problem=9) - Special Pythagorean Triplet
 Relevant files: [euler9.cc](euler9.cc)
