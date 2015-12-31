@@ -99,13 +99,25 @@ I found the smallest multiple of the any two numbers by simply checking multiple
 Relevant files: [euler5.cc](euler5.cc)
 
 ###[Problem 4](https://projecteuler.net/problem=4) - Largest Palindrome Product
+
+This one I used brute force, but started with 900 * 900 instead of all three digit numbers. Here I compared the first half to the first half of the reverse, but I realize now I only needed to compare the whole thing to the reverse of the whole thing, which would be more efficient since I reversed it anyways.
+
 Relevant files: [euler4.rkt](euler4.rkt)
 
 ###[Problem 3](https://projecteuler.net/problem=3) - Largest Prime Factor
+
+Found prime factors by taking out a prime factor, then dividing the entire thing by that factor until there was only the largest one left.
+
 Relevant files: [euler3.cc](euler3.cc)
 
 ###[Problem 2](https://projecteuler.net/problem=2) - Even Fibonacci Numbers
+
+Brute force using the fibonacci calculation. Could have used a more efficient matrix calculation of fibonacci numbers.
+
 Relevant files: [euler2.cc](euler2.cc)
 
 ###[Problem 1](https://projecteuler.net/problem=1) - Multiples of 3 and 5
+
+Brute force calculation of all multiples of 3, then all multiples of 5, then subtract multiples of 15.
+
 Relevant files: [euler1.cc](euler1.cc)
