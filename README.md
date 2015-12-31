@@ -87,9 +87,15 @@ Used Sieve of Eratothenes and a counter.
 Relevant files: [euler7.cc](euler7.cc)
 
 ###[Problem 6](https://projecteuler.net/problem=6) - Sum Square Differences
+
+Simple brute force method.
+
 Relevant files: [euler6.cc](euler6.cc)
 
 ###[Problem 5](https://projecteuler.net/problem=5) - Smallest Multiple
+
+I found the smallest multiple of the any two numbers by simply checking multiples of the first number until it is the divisible by the second number. Then I realized the fact that the smallest multiple of the first three numbers is the smallest multiple of the third number and the smallest multiple of first two. Using that, I continued until I found the smallest multiple of the first 20.
+
 Relevant files: [euler5.cc](euler5.cc)
 
 ###[Problem 4](https://projecteuler.net/problem=4) - Largest Palindrome Product
