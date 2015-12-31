@@ -57,9 +57,15 @@ Here I needed a method to count divisors of a number. I started out by finding p
 Relevant files: [Euler12.java](Euler12.java)
 
 ###[Problem 11](https://projecteuler.net/problem=11) - Largest Product in a Grid
+
+Very brute force method of solving this one. For each position, I calculated the product horizontally, diagonally, and vertically, while checking for array out-of-bounds errors. If I were to try this again, I would use a similar approach to the the one I used for [Problem 67](https://projecteuler.net/problem=67)/[18](https://projecteuler.net/problem=18), storing the products and updating them so I don't need to redo calculations.
+
 Relevant files: [euler11.cc](euler11.cc), [euler11grid.txt](euler11grid.txt)
 
 ###[Problem 10](https://projecteuler.net/problem=10) - Summation of Primes
+
+
+
 Relevant files: [Euler10.java](Euler10.java)
 
 ###[Problem 9](https://projecteuler.net/problem=9) - Special Pythagorean Triplet
