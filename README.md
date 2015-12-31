@@ -69,9 +69,15 @@ A more optimized implementation of the Sieve of Erathoneses than the one I used 
 Relevant files: [euler10.cc](euler10.cc), [Euler10.java](Euler10.java)
 
 ###[Problem 9](https://projecteuler.net/problem=9) - Special Pythagorean Triplet
+
+Used a brute force method of checking all combinations of a, b, c that satisfy conditions. Better solutions include a purely algebraic method, no computation required.
+
 Relevant files: [euler9.cc](euler9.cc)
 
 ###[Problem 8](https://projecteuler.net/problem=8) - Largest Product in a Series
+
+
+
 Relevant files: [euler8.cc](euler8.cc), [euler8number.txt](euler8number.txt)
 
 ###[Problem 7](https://projecteuler.net/problem=7) - 10001st Prime
